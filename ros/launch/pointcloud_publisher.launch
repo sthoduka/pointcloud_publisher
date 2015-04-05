@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<launch>
+    <node pkg="pointcloud_publisher" type="pointcloud_publisher" name="pointcloud_publisher" output="screen" respawn="false">
+        <param name="input_file" value="$(arg input_file)" />
+        <!--param name="frame_id" value="/camera_link" /-->
+        <!--param name="frames_per_second" value="1.0" /-->
+    </node>
+</launch>
